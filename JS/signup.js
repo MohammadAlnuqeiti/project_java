@@ -8,7 +8,7 @@ function logSubmit(event) {
     let useCon = /^[a-zA-Z ]/
     let mailCon = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z]+(?:\.[a-zA-Z0-9-]+)*$/
     let checkPass=/^^[A-Za-z]\w{5,31}$/
-    //-----------------------------------------
+//-----------------------------------------
 console.log(true);
     let a = false
     let b = false
@@ -48,15 +48,6 @@ console.log(true);
     console.log(users);
 
     if(   a==true && b==true  &&  d==true   &&  f==true ){
-        // rePass.style.borderColor = ''
-        // document.getElementById("match").style.display = 'none'
-        // User.style.borderColor = ''
-        // document.getElementById("errName").style.display = 'none'
-        // Email.style.borderColor = ''
-        // document.getElementById("errEmail").style.display = 'none'
-        // Phone.style.borderColor = ''
-       
-
         localStorage.setItem("users", JSON.stringify(users));
          console.log(true);
          console.log(true);

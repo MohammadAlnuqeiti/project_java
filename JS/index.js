@@ -11,24 +11,9 @@ users.map(ele => {
 //------------------------------------------------------------
 let arr = JSON.parse(localStorage.getItem('array')) 
 
-   let array = arr || [
-    // {
-    // 'orderImage'  : "./aptizerFood.jpg",
-    // 'customerName': "ahmed",
-    // 'foodType':"desert",
-    // 'payment':8  
-    // }
-]
-console.log(array);
-console.log(arr);
-// ___________________________________
+   let array = arr || []
 
-// _______________________________________
-// function addData(){
-
-
-// }
-
+// ------------------------------------------------
 let btn=document.querySelector("#saveData")
 btn.addEventListener("click", save)
 let name = document.getElementById("inputName").value
@@ -40,19 +25,16 @@ let select = document.getElementById(`select`).value
 console.log(name)
     if(select==="dessert"){
         a="desseret"
-        // b=name
         x="./dessertFood.jpg";
         z=7
     }
     if(select==="mainCo"){
         a="mainCo"
-        // b=name
         x="./seaFood.jpg";
         z=18
     }
     if(select==="aptizer"){
         a="aptizer"
-        // b=name
         x="./aptizerFood.jpg";
         z=10
     }
@@ -97,18 +79,19 @@ let table1 = '<table border=2>';
 
 }
 //----------------------------------------------
+// remove data in body
 let btnRemove=document.getElementById(`remove`)
 btnRemove.addEventListener(`click`,removetable)
 
 function removetable(){
-    // localStorage.clear()
 
     document.getElementById("list").innerHTML = "";
-    // document.getElementById("list").style.visibility = `hidden`
 console.log(array)
 
 }
 // //----------------------------------------------
+
+// delete data in local storage
 let removeLocal=document.getElementById(`delete`)
 removeLocal.addEventListener(`click`,deleteLocal)
 
@@ -117,20 +100,6 @@ function deleteLocal(){
     document.getElementById("list").innerHTML = "";
 
 
-    // document.getElementById("list").innerHTML = "";
-    // document.getElementById("list").style.visibility = `hidden`
-
 
 }
 //----------------------------------------------
-// let btnRemove=document.getElementById(`remove`)
-// btnRemove.addEventListener(`click`,removetable)
-
-// function removetable(){
-//     // localStorage.clear()
-
-//     document.getElementById("list").innerHTML = "";
-//     // document.getElementById("list").style.visibility = `hidden`
-
-
-// }

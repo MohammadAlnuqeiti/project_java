@@ -21,12 +21,8 @@ console.log(true);
             users.map(e => {
                 
             if(e.mail === compmail && e.password == compPass && compmail !== "" && compPass !== ""){
-                // sessionStorage.setItem("loname", JSON.stringify(e.name));
-                // sessionStorage.setItem("lomail", JSON.stringify(e.mail));
-                // localStorage.setItem('users')
                 console.log(true);
                 window.location=("./index.html")
-                // sessionStorage.setItem()
             }
             })
             

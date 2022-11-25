@@ -24,7 +24,6 @@ body {
     padding: 35px;
     width: 100%;
     background-color: white
-    /* background-color: #BFC9CA */
 }
 
 form{
@@ -47,7 +46,6 @@ input[type=email], input[type=password] {
 }
 button {
     background-color: #BF834E;
-    /* background-color:#24422F; */
     color: #D6E2E0;
     padding: 14px 20px;
     margin: 8px 0;
