@@ -22,7 +22,7 @@ console.log(true);
                 
             if(e.mail === compmail && e.password == compPass && compmail !== "" && compPass !== ""){
                 console.log(true);
-                window.location=("./index.html")
+                window.location=("./home.html")
             }
             })
             

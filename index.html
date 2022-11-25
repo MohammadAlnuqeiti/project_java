@@ -4,43 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/index.css">
-    <title>Document</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="./CSS/singup.css">
+    <link rel="icon" href="">
+
+     <title>Signup</title>
 </head>
 <body>
-    
-<div class="container">
-    <div id="user">
-<div id="">
-    HELLO , <span id="name"></span>
-</div>
-<div id="email">
 
-</div>
+        <div class="container">
+            
+            <h3>CREATE ACCOUNT</h3>
+          
+            <form id="form">
+                <input type="text" id="username" placeholder="User name" >
+                <p class="error" id="errName"></p>
+                <input type="email" id="email" placeholder="Enter email">
+                <p class="error" id="errEmail"></p>
+                <input type="password" id="password" placeholder="Enter password">
+                <input type="password" id="repssword" placeholder="Repeat your password">
+                <p class="error" id="match"></p>
+                <button type="submit">Sign Up</button>
+
+            </form>
+
     </div>
-    <form>
-        <div>
-            <label>Customer Name:</label>
-            <input type="text" id="inputName"/>
-        </div>
-        <div>
-            <label>Your Order:</label>
-            <select id="select">
-                <option value="dessert">dessert</option>
-                <option value="mainCo">mainCo</option>
-                <option value="aptizer">aptizer</option>
-            </select>
-        </div>
-        <div>
-            button id="saveData" >ask for cheif</button>
-        </div>
-    </form>
-        <button id="remove" >remove content</button>
-        <button id="delete" >delete local storage</button>
-
-    <div id="list"></div>
-  </div>
- <script src="./JS/index.js"></script>
-
+    <script src="./JS/signup.js"></script>
 </body>
 </html>

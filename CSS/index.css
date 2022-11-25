@@ -40,10 +40,14 @@ button{
     cursor: pointer;
     color: white;
     border-color: #A07350;
+}
+#btnn{
     margin-bottom: 30px;
+
 }
 table , th , td {
     border-color:#A07350 ;
+    margin: 0 auto;
 }
 #user {
     display: flex;
